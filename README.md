@@ -6,9 +6,9 @@ The purpose of this project was to modify starter code to create an application 
 
 ## Links
 
-Depository Link: 
+Repository Link: https://github.com/zavaletaosv/Note-Taker
 
-Deployed Website Link: 
+Deployed Website Link: https://note-taker-oz.herokuapp.com/
 ## Usage
 
 Once deployed, the application appears as the image attached below on a traditional desktop.
