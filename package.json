@@ -2,7 +2,7 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "Express.js: Note Taker",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "dev": "nodemon index.js",
