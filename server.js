@@ -24,6 +24,18 @@ app.get('/api/notes', (req, res) => {
     res.json(database);
 });
 
+app.post('/api/notes', (req, res) => {
+
+    database.push(req.body);
+    database.forEach((obj, i) => {
+        obj.id = i + 1;
+    });
+
+    fs.writeFile('./db/db.json', JSON.stringify(database), () => {
+        res.json(database);
+    });
+});
+
 app.listen(PORT, () => {
     console.log(`App listening at http://localhost:${PORT} 🚀`)
 });
