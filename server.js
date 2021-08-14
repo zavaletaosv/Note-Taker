@@ -1,7 +1,8 @@
 const path = require('path');
 const fs = require('fs');
+const router = express.Router();
 const express = require('express');
-const database = require('./db/db.json')
+const database = require('./db/db.json');
 
 const app = express();
 
