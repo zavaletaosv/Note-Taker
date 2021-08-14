@@ -13,10 +13,18 @@ Deployed Website Link: https://note-taker-oz.herokuapp.com/
 
 Once deployed, the application appears as the image attached below on a traditional desktop.
 
+<img
+src="./images/notetaker.png"
+alt="A screenshot of the application is shown" />
+
 
 ## Resources
 
+Heroku
 
+Node.JS
+
+Express
 
 ## Credits
 
